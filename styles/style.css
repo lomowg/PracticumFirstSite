@@ -18,7 +18,12 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* выше установили ограничения для секции */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Центрирование по вертикали */
+  background-color: #f2f2f2;
+  overflow: hidden;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -33,4 +38,61 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.logo_place_header {
+  width: 228px;
+  height: 32px;
+  position: absolute;
+  top: 30px;
+  margin-left: 64px;
+}
+
+.header__title {
+  width: 730px;
+  margin-left: 64px;
+  
+}
+
+.header__title_text{
+  font-size: 102px;
+  line-height: 96px;
+  font-weight: 600;
+}
+
+.header__subtitle {
+  width: 340px;
+  margin-left: 64px;
+  position: absolute;
+  bottom: 30px;
+}
+
+.header__subtitle_link {
+  text-decoration: none;
+}
+
+.header__subtitle_link::after{
+  content: '→';
+  position: absolute;
+  top: 84%;
+  transform: translateY(-50%);
+}
+
+.header__pic img{
+  width: 765px;
+  height: auto;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.header__square-pic {
+  height: 568px;
+  width: 568px;
+  background-color: #2f80ed;
+  position: absolute;
+  right: 0px;
+  top: 64px;
+  z-index: 0;
 }
