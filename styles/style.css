@@ -103,7 +103,8 @@
   justify-content: center;
   
 }
-.two-colums{
+
+.two-colums {
   margin-top: 100px;
   margin-bottom: 100px;
   width: 80%;
@@ -111,29 +112,89 @@
   display: flex;
   justify-content: space-between;
 }
-.two-colums_brief{
+
+.two-colums_brief {
   width: 175px;
 }
-.brief{
+
+.brief {
   color: #2f80ed;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
 }
-.two-colums_main-text{
+
+.two-colums_main-text {
   width: 784px;
 }
-.description-text{
+
+.description-text {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
 }
-.description-text_coclusion{
+
+.description-text_coclusion {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.conclusion{
+
+.conclusion {
   font-size: 24px;
   font-weight: 600;
   line-height: 34px;
+}
+
+
+.digits {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 1.15;
+  margin: 0;
+}
+
+.section-subtitle {
+  line-height: 34px;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.section-subtitle-digits {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.table {
+  width: 1100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto 100px;
+}
+
+.table__cell {
+  width: 250px;
+  margin: 60px 0px 60px 0px;
+}
+
+.table__heading {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.15;
+}
+
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 20px;
 }
