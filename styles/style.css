@@ -96,3 +96,44 @@
   top: 64px;
   z-index: 0;
 }
+
+.description {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+.two-colums{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 80%;
+  min-width: 784px;
+  display: flex;
+  justify-content: space-between;
+}
+.two-colums_brief{
+  width: 175px;
+}
+.brief{
+  color: #2f80ed;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+.two-colums_main-text{
+  width: 784px;
+}
+.description-text{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+.description-text_coclusion{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.conclusion{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+}
