@@ -276,3 +276,86 @@
   width: 877px;
   height: 877px;
 }
+
+
+.footer {
+  background-color: #1f1f1f;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__colums {
+  display: flex;
+  width: 90%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer__author {
+  color: #f2f2f2;
+  margin-top: 80px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column-heading {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #f2f2f2;
+}
+
+.link-nav {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
+.footer__column_info_links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+
+.links {
+  padding-left: 20px;
+}
+
+.yt , .vk , .tt {
+  position: relative;
+}
+
+.yt::before {
+  content: url('/images/youtube_color_white.svg');
+  position: absolute;
+  left: -1px;
+  transform: translateY(5%);
+}
+
+.vk::before {
+  content: url('/images/vk_color_white.svg');
+  position: absolute;
+  left: -1px;
+  transform: translateY(5%);
+}
+
+.tt::before {
+  content: url('/images/tiktok_color_white.svg');
+  position: absolute;
+  left: -1px;
+  transform: translateY(5%);
+}
+
+.footer__list {
+  list-style: none;
+  padding-left: 0;
+}
