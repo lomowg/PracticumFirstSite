@@ -32,14 +32,6 @@
   width: 568px;
 }
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
-
 .logo_place_header {
   width: 228px;
   height: 32px;
@@ -253,4 +245,34 @@
   top: 50%;
   left: 109%;
   transform: translateY(-50%);
+}
+
+
+.kaufman {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:#f2f2f2;
+  background-color: #1f1f1f;
+  overflow: hidden;
+  position: relative;
+}
+
+.title-digits_theme_dark {
+  margin-top: 90px;
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+  z-index: 100;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  right: -210px;
+  width: 877px;
+  height: 877px;
 }
