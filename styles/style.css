@@ -168,7 +168,7 @@
   line-height: 34px;
   font-weight: normal;
   font-size: 24px;
-  margin: auto;
+  margin: 0px auto 50px auto;
 }
 
 .section-title {
@@ -418,4 +418,33 @@
   line-height: 23px;
   font-weight: normal;
   text-align: center;
+}
+
+
+.video {
+  display: flex;
+  flex-direction: column;
+}
+
+.video__iframes {
+  margin: 0px auto 0px auto;
+  position: relative;
+}
+
+.video__iframe {
+  margin:0 20px;
+  width: 515px ;
+  height: 316px;
+}
+
+
+.oakley {
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+}
+
+.oakley__two-columns {
+  margin: 100px auto 100px;
+  width: 70%;
 }
