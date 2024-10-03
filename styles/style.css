@@ -519,3 +519,20 @@
   height: 608px;
   overflow: hidden;
 }
+
+
+.resources {
+  display: flex;
+  flex-direction: column;
+}
+
+.resources__logo-zone {
+  margin: 80px auto 217px;
+  width: 1180px;
+}
+
+.resources__logo {
+  width: 270px;
+  height: 38px;
+}
+
