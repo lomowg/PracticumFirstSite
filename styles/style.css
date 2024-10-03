@@ -3,6 +3,15 @@
   padding: 0;
 }
 
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -30,6 +39,7 @@
 .header__square-pic {
   height: 568px;
   width: 568px;
+  animation: rotation 20s infinite linear;
 }
 
 .logo_place_header {
@@ -158,6 +168,14 @@
   line-height: 34px;
   font-weight: normal;
   font-size: 24px;
+  margin: auto;
+}
+
+.section-title {
+  margin: 100px auto 20px;
+  font-size: 60px;
+  line-height: 69px;
+  font-weight: bold;
 }
 
 .section-subtitle-digits {
@@ -358,4 +376,46 @@
 .footer__list {
   list-style: none;
   padding-left: 0;
+}
+
+
+.technics {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards {
+  width:60%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.cards__item {
+  width: 240px;
+  margin-top:60px;
+}
+
+.cards__image {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  margin: 0 40px;
+  
+}
+
+.cards__title {
+  text-align: center;
+  margin-top: 43px;
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: 600;
+}
+
+.cards__description {
+  margin-top: 16px;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: normal;
+  text-align: center;
 }
