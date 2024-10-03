@@ -218,7 +218,7 @@
   background-image: url('../images/feynman.png');
   background-repeat: no-repeat;
   background-position: bottom left;
-  height: 867px;
+  height: 980px;
   width: auto;
   background-size: 60%;
   position: relative;
@@ -246,8 +246,8 @@
 
 .feynman__link-block {
   position: absolute;
-  right: 48px;
-  top: 44%;
+  right: 100px;
+  top: 46%;
 }
 
 .feynman__link {
